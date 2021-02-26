@@ -19,6 +19,9 @@ export default makeStyles((theme) => ({
         margin: '10px 0',
     },
     buttonSubmit: {
-        marginButoom: 10
+        marginBottom: 10
     },
+    heading: {
+        marginBottom: 15
+    }
 }))
