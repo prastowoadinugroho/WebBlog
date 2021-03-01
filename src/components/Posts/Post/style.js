@@ -16,7 +16,7 @@ export default makeStyles({
     card: {
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'space-beetween',
+        justifyContent: 'space-between',
         borderRadius: '15px',
         height: '100%',
         position: 'relative',
@@ -30,7 +30,7 @@ export default makeStyles({
     overlay2: {
         position: 'absolute',
         top: '20px',
-        left: '20px',
+        right: '20px',
         color: 'white'
     },
     grid: {
@@ -40,9 +40,6 @@ export default makeStyles({
         display: 'flex',
         justifyContent: 'space-between',
         margin: '20px',
-    },
-    title: {
-        padding: '0 16px',
     },
     cardActions: {
         padding: '0 16px 8px 16px',
